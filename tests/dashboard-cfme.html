@@ -5,7 +5,7 @@
 <html>
 <!--<![endif]-->
   <head>
-    <title>Tiles - PatternFly</title>
+    <title>CFME Dashboard - PatternFly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../dist/img/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../dist/img/apple-touch-icon-144-precomposed.png">
@@ -92,8 +92,8 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-primary">
-          <li>
-            <a href="dashboard-cfme.html">CFME Dashboard</a>
+          <li class="active">
+            <a href="dashboard-cfme.html" class="active">CFME Dashboard</a>
           </li>
           <li>
             <a href="basic.html">Basic</a>
@@ -113,8 +113,8 @@
           <li>
             <a href="typography-2.html">Typography</a>
           </li>
-          <li class="active">
-            <a href="tiles.html" class="active">Tiles</a>
+          <li>
+            <a href="tiles.html">Tiles</a>
           </li>
         </ul>
       </div>
@@ -123,269 +123,181 @@
       <div class="row row-tile-pf">
         <div class="col-xs-6 col-sm-4 col-md-2">
           <div class="tile-pf tile-pf-accented tile-pf-aggregate-status">
-            <h2 class="tile-pf-title"><span class="fa fa-shield"></span> <span class="tile-pf-aggregate-status-count">0</span> Ipsum</h2>
+            <h2 class="tile-pf-title"><span class="tile-pf-aggregate-status-count">3</span> Providers</h2>
             <div class="tile-pf-body">
               <p class="tile-pf-aggregate-status-notifications">
-                <span class="tile-pf-aggregate-status-notification"><a href="#"><span class="pficon pficon-add-circle-o"></span></a></span>
+                <span class="tile-pf-aggregate-status-notification"><span class="fa fa-shield"></span> 1</span>
+                <span class="tile-pf-aggregate-status-notification"><span class="fa fa-shield"></span> 2</span>
               </p>
             </div>
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
           <div class="tile-pf tile-pf-accented tile-pf-aggregate-status">
-            <h2 class="tile-pf-title"><span class="fa fa-shield"></span> <span class="tile-pf-aggregate-status-count">20</span> Amet</h2>
+            <h2 class="tile-pf-title"><span class="pficon pficon-container-node"></span><span class="tile-pf-aggregate-status-count">52</span> Nodes</h2>
             <div class="tile-pf-body">
               <p class="tile-pf-aggregate-status-notifications">
-                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-error-circle-o"></span> 1</span>
-                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-warning-triangle-o"></span> 1</span>
+                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-error-circle-o"></span> 3</span>
               </p>
             </div>
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
           <div class="tile-pf tile-pf-accented tile-pf-aggregate-status">
-            <h2 class="tile-pf-title"><span class="fa fa-shield"></span> <span class="tile-pf-aggregate-status-count">9</span> Adipiscing</h2>
+            <h2 class="tile-pf-title"><span class="fa fa-cubes"></span><span class="tile-pf-aggregate-status-count">1200</span> Pods</h2>
             <div class="tile-pf-body">
               <p class="tile-pf-aggregate-status-notifications">
-                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-ok"></span></span>
+                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-error-circle-o"></span> 3</span>
               </p>
             </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-            <a href="#">
-          <div class="tile-pf tile-pf-accented tile-pf-aggregate-status">
-            <h2 class="tile-pf-title"><span class="fa fa-shield"></span> <span class="tile-pf-aggregate-status-count">12</span> Lorem</h2>
-            <div class="tile-pf-body">
-              <p class="tile-pf-aggregate-status-notifications">
-                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-error-circle-o"></span> 1</span>
-              </p>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <div class="tile-pf tile-pf-accented tile-pf-status">
+                <h2 class="tile-pf-title"><span class="pficon pficon-service"></span> <span class="tile-pf-status-count">300</span> Containers</h2>
+              </div>
             </div>
-          </div>
-            </a>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="tile-pf tile-pf-accented tile-pf-aggregate-status">
-            <h2 class="tile-pf-title"><span class="fa fa-shield"></span> <span class="tile-pf-aggregate-status-count">6</span> Dolar Sit</h2>
-            <div class="tile-pf-body">
-              <p class="tile-pf-aggregate-status-notifications">
-                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-error-circle-o"></span> 1</span>
-              </p>
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <div class="tile-pf tile-pf-accented tile-pf-status">
+                <h2 class="tile-pf-title"><span class="pficon pficon-service"></span> <span class="tile-pf-status-count">4</span> Registries</h2>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="tile-pf tile-pf-accented tile-pf-aggregate-status">
-            <h2 class="tile-pf-title"><span class="fa fa-shield"></span> <span class="tile-pf-aggregate-status-count">199</span> Consectetur</h2>
-            <div class="tile-pf-body">
-              <p class="tile-pf-aggregate-status-notifications">
-                <span class="tile-pf-aggregate-status-notification"><span class="pficon pficon-error-circle-o"></span> 1</span>
-              </p>
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <div class="tile-pf tile-pf-accented tile-pf-status">
+                <h2 class="tile-pf-title"><span class="pficon pficon-service"></span> <span class="tile-pf-status-count">510</span> Projects</h2>
+              </div>
             </div>
-          </div>
+          </div><!-- /row -->
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <div class="tile-pf tile-pf-accented tile-pf-status">
+                <h2 class="tile-pf-title"><span class="pficon pficon-service"></span> <span class="tile-pf-status-count">2500</span> Services</h2>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <div class="tile-pf tile-pf-accented tile-pf-status">
+                <h2 class="tile-pf-title"><span class="pficon pficon-service"></span> <span class="tile-pf-status-count">2500</span> Images</h2>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <div class="tile-pf tile-pf-accented tile-pf-status">
+                <h2 class="tile-pf-title"><span class="pficon pficon-service"></span> <span class="tile-pf-status-count">300</span> Routes</h2>
+              </div>
+            </div>
+          </div><!-- /row -->
         </div>
       </div><!-- /row -->
       <div class="row row-tile-pf">
-        <div class="col-xs-6 col-sm-4 col-md-4">
+        <div class="col-xs-7 col-sm-8 col-md-8">
           <div class="tile-pf">
             <div class="tile-pf-heading">
-              <h2 class="tile-pf-title">IOPS Workload</h2>
+              <h2 class="tile-pf-title">Utilization</h2>
             </div>
             <div class="tile-pf-body">
-              <p>Last 30 days</p>
-              <div id="iops"></div>
+              <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>CPU</h3>
+                  <h4>350 <small>Available of 1,000 MHz</small></h4>
+                  <div>[radial chart here]</div>
+                  <div id="cpu"></div>
+                  <p class="pull-right">20%</p>
+                  <p class-"pull-left">Last 30 Days</p>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>Memory</h3>
+                  <h4>350 <small>Available of 1,000 MHz</small></h4>
+                  <div>[radial chart here]</div>
+                  <div id="memory"></div>
+                  <p class="pull-right">20%</p>
+                  <p class-"pull-left">Last 30 Days</p>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>Storage</h3>
+                  <h4>350 <small>Available of 1,000 MHz</small></h4>
+                  <div>[radial chart here]</div>
+                  <div id="storage"></div>
+                  <p class="pull-right">20%</p>
+                  <p class-"pull-left">Last 30 Days</p>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>Network</h3>
+                  <h4>350 <small>Available of 1,000 MHz</small></h4>
+                  <div>[radial chart here]</div>
+                  <div id="network"></div>
+                  <p class="pull-right">20%</p>
+                  <p class-"pull-left">Last 30 Days</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf">
-            <div class="tile-pf-heading">
-              <h2 class="tile-pf-title">Container Configuration Changes</h2>
+        <div class="col-xs-5 col-sm-4 col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="tile-pf">
+                <div class="tile-pf-heading">
+                  <h2 class="tile-pf-title">IOPS Workload</h2>
+                </div>
+                <div class="tile-pf-body">
+                  <div class="row">
+                    <div class="col-sm-8 col-md-8">
+                      <div id="iops"></div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                      <h3>60%</h3>
+                      <p>xx of yy units</p>
+                      <p>Last 30 days</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="tile-pf-body">
-              <p>Last 30 days</p>
-              <div class="row">
-                <div class="col-sm-8 col-md-8">
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="tile-pf">
+                <div class="tile-pf-heading">
+                  <h2 class="tile-pf-title">Container Configuration Changes</h2>
+                </div>
+                <div class="tile-pf-body">
                   <div id="ccc"></div>
                 </div>
-                <div class="col-sm-4 col-md-4">
-                  <p>text here</p>
-                </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf">
-            <div class="tile-pf-heading">
-              <h2 class="tile-pf-title"># Title</h2>
-            </div>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
             </div>
           </div>
         </div>
       </div><!-- /row -->
       <div class="row row-tile-pf">
-        <div class="col-xs-6 col-sm-4 col-md-4">
+        <div class="col-md-12">
           <div class="tile-pf">
-            <h2 class="tile-pf-title">IOPS Workload</h2>
-            <div class="tile-pf-body">
-              <p>Last 30 days</p>
-              <div id="iops2"></div>
+            <div class="tile-pf-heading">
+              <h2 class="tile-pf-title">Utilization By Nodes</h2>
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf">
-            <h2 class="tile-pf-title">Container Configuration Changes</h2>
             <div class="tile-pf-body">
-              <p>Last 30 days</p>
               <div class="row">
-                <div class="col-sm-8 col-md-8">
-                  <div id="ccc2"></div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>CPU</h3>
+                  <div>[heat map here]</div>
                 </div>
-                <div class="col-sm-4 col-md-4">
-                  <p>text here</p>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>Memory</h3>
+                  <div>[heat map here]</div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>Storage</h3>
+                  <div>[heat map here]</div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                  <h3>Network</h3>
+                  <div>[heat map here]</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf">
-            <h2 class="tile-pf-title"># Title</h2>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-          </div>
-        </div>
-      </div><!-- /row -->
-      <div class="row row-tile-pf">
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf tile-pf-bleed-right">
-            <h2 class="tile-pf-title"># Title</h2>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf tile-pf-bleed-right tile-pf-bleed-left">
-            <h2 class="tile-pf-title"># Title</h2>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf tile-pf-bleed-left">
-            <h2 class="tile-pf-title"># Title </h2>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-          </div>
-        </div>
-      </div><!-- /row -->
-      <div class="row row-tile-pf">
-        <div class="col-xs-6 col-sm-5 col-md-5">
-          <div class="tile-pf">
-            <h2 class="tile-pf-title"># Title</h2>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-            <div class="tile-pf-footer">
-              <p><a href="#"><span class="pficon pficon-flag"></span>Link goes here</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-7 col-md-7">
-          <div class="tile-pf">
-            <h2 class="tile-pf-title"># Title</h2>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-          </div>
-        </div>
-      </div><!-- /row -->
-      <div class="row row-tile-pf">
-        <div class="col-xs-4 col-sm-3 col-md-3">
-          <div class="tile-pf">
-            <div class="tile-pf-heading">
-              <h2 class="tile-pf-title"># Title</h2>
-            </div>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-            <div class="tile-pf-footer">
-              <p><a href="#"><span class="pficon pficon-flag"></span>Link goes here</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-8 col-sm-9 col-md-9">
-          <div class="tile-pf">
-            <div class="tile-pf-heading">
-              <h2 class="tile-pf-title"># Title is very long so that it wraps to more than one line at nearly any and all resolutions even the ones that are really, really big</h2>
-            </div>
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-            <div class="tile-pf-footer">
-              <p><a href="#"><span class="pficon pficon-flag"></span>Link goes here</a></p>
-            </div>
-          </div>
-        </div>
-      </div><!-- /row -->
-      <div class="row row-tile-pf">
-        <div class="col-xs-6 col-sm-8 col-md-8">
-          <div class="tile-pf">
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-            <div class="tile-pf-footer">
-              <p><a href="#"><span class="pficon pficon-flag"></span>Link goes here</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf">
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-            <div class="tile-pf-footer">
-              <p><a href="#"><span class="pficon pficon-flag"></span>Link goes here</a></p>
-            </div>
-          </div>
-        </div>
-      </div><!-- /row -->
-      <div class="row row-tile-pf">
-        <div class="col-xs-6 col-sm-8 col-md-8">
-          <div class="tile-pf">
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-4">
-          <div class="tile-pf">
-            <div class="tile-pf-body">
-              <p><span class="pficon pficon-ok"></span> #</p>
-            </div>
-          </div>
-        </div>
-      </div><!-- /row -->
+      </div>
     </div><!-- /container -->
     <script>
       $(function() {
@@ -405,7 +317,7 @@
           },
           data: {
             columns: [
-              ['Less than one year remaining', 10, 14, 12, 20, 31, 27, 44, 36, 52, 55, 62, 68, 69, 88, 74, 88, 91],
+              ['IOPS Workload', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 64, 58, 54, 44, 20],
             ],
             type: 'area'
           },
@@ -443,11 +355,43 @@
           },
           bindto: '#ccc',
           color: {
+            pattern: ['#ec7a08','#3f9c35', '#0088ce', '#00659c', '#cc0000']
+          },
+          data: {
+            columns: [
+              ['Creation', 10, 14, 12, 20, 31, 27, 44, 36, 52, 55, 62, 68, 69, 88, 74, 88, 91],
+              ['Deletion', 50, 2, 7, 40, 20, 44, 18, 3, 20, 33, 14, 12, 7, 19, 9, 20, 29]
+            ],
+            type: 'area'
+          },
+          point: {
+            r: 1,
+            focus: {
+              expand: {
+                r: 4
+              }
+            }
+          },
+          size: {
+            height: 100
+          }
+        });
+        var cpu = c3.generate({
+          axis: {
+            x: {
+              show: false
+            },
+            y: {
+              show: false
+            }
+          },
+          bindto: '#cpu',
+          color: {
             pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
           },
           data: {
             columns: [
-              ['Less than one year remaining', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 74, 78, 64, 44, 20],
+              ['IOPS Workload', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 64, 58, 54, 44, 20],
             ],
             type: 'area'
           },
@@ -463,7 +407,7 @@
             }
           },
           size: {
-            height: 80
+            height: 40
           },
           tooltip: {
             // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
@@ -474,7 +418,7 @@
             }
           }
         });
-        var iops2 = c3.generate({
+        var memory = c3.generate({
           axis: {
             x: {
               show: false
@@ -483,13 +427,13 @@
               show: false
             }
           },
-          bindto: '#iops2',
+          bindto: '#memory',
           color: {
             pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
           },
           data: {
             columns: [
-              ['Less than one year remaining', 10, 14, 12, 20, 31, 27, 44, 36, 52, 55, 62, 68, 69, 88, 74, 88, 91],
+              ['IOPS Workload', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 64, 58, 54, 44, 20],
             ],
             type: 'area'
           },
@@ -505,7 +449,7 @@
             }
           },
           size: {
-            height: 80
+            height: 40
           },
           tooltip: {
             // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
@@ -516,7 +460,7 @@
             }
           }
         });
-        var ccc2 = c3.generate({
+        var storage = c3.generate({
           axis: {
             x: {
               show: false
@@ -525,13 +469,13 @@
               show: false
             }
           },
-          bindto: '#ccc2',
+          bindto: '#storage',
           color: {
             pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
           },
           data: {
             columns: [
-              ['Less than one year remaining', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 74, 78, 64, 44, 20],
+              ['IOPS Workload', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 64, 58, 54, 44, 20],
             ],
             type: 'area'
           },
@@ -547,7 +491,49 @@
             }
           },
           size: {
-            height: 80
+            height: 40
+          },
+          tooltip: {
+            // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
+            contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+              for (i = 0; i < d.length; i++) {
+                return '<span class="c3-tooltip-sparkline">' + d[i].value + '%' + '</span>'
+              }
+            }
+          }
+        });
+        var network = c3.generate({
+          axis: {
+            x: {
+              show: false
+            },
+            y: {
+              show: false
+            }
+          },
+          bindto: '#network',
+          color: {
+            pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
+          },
+          data: {
+            columns: [
+              ['IOPS Workload', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 64, 58, 54, 44, 20],
+            ],
+            type: 'area'
+          },
+          legend: {
+            show: false
+          },
+          point: {
+            r: 1,
+            focus: {
+              expand: {
+                r: 4
+              }
+            }
+          },
+          size: {
+            height: 40
           },
           tooltip: {
             // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
@@ -559,10 +545,10 @@
           }
         });
         // matchHeight the contents of each .tile-pf and then the .tile-pf itself
-        $(".row-tile-pf > [class*='col'] > .tile-pf .tile-pf-title").matchHeight();
+        /* $(".row-tile-pf > [class*='col'] > .tile-pf .tile-pf-title").matchHeight();
         $(".row-tile-pf > [class*='col'] > .tile-pf > .tile-pf-body").matchHeight();
         $(".row-tile-pf > [class*='col'] > .tile-pf > .tile-pf-footer").matchHeight();
-        $(".row-tile-pf > [class*='col'] > .tile-pf").matchHeight();
+        $(".row-tile-pf > [class*='col'] > .tile-pf").matchHeight(); */
       });
     </script>
   </body>

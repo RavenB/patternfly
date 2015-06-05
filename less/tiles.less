@@ -9,14 +9,18 @@
 .tile-pf {
   background: @tile-pf-bg-color;
   border-top: 2px solid @tile-pf-border-top-color;
-  .box-shadow(0 1px 1px rgba(0,0,0,.2));
+  .box-shadow(0 1px 1px rgba(0,0,0,.175));
   padding: 0 @grid-gutter-width/2;
   margin: 0 -(@grid-gutter-width/4) @grid-gutter-width/2;
   &.tile-pf-accented {
     border-top-color: @tile-pf-accented-border-top-color;
   }
-  &.tile-pf-aggregate-status {
+  &.tile-pf-aggregate-status, &.tile-pf-status {
     text-align: center;
+    padding: 0 @grid-gutter-width/4;
+  }
+  &.tile-pf-status {
+    position: relative;
   }
   @media (min-width: @grid-float-breakpoint) {
     &.tile-pf-bleed-left {
@@ -86,8 +90,24 @@
       margin-right: 5px;
     }
   }
-  .tile-pf-aggregate-status-count {
+  .tile-pf-status & {
+    font-size: @font-size-base;
+    margin: @grid-gutter-width/4 0 0;
+    padding: 0 0 @grid-gutter-width/4;
+    .fa, .pficon {
+      color: @tile-pf-aggregate-status-title-icon-color;
+      font-size: @font-size-large * 2;
+      position: absolute;
+      left: @grid-gutter-width/4;
+      margin-top: -@font-size-large;
+      top: 50%;
+    }
+  }
+  .tile-pf-aggregate-status-count, .tile-pf-status-count {
     font-size: @font-size-h3;
+  }
+  .tile-pf-status-count {
+    display: block;
   }
 }
 
